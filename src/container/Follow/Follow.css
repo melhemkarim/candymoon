@@ -1,0 +1,31 @@
+.follow{
+    text-align: center;
+    padding-top: 20px;
+    height: 300px ;
+}
+.follow-title {
+    font-family: 'Bebas Neue', cursive;
+    color:#FF5757 ;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
+.follow-socials {
+    font-size: 30px;
+    
+}
+
+.follow-socials a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+
+}
+
+.socials-btn{
+    width: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    
+}
+

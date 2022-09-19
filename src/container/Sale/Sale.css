@@ -1,0 +1,46 @@
+.Sale{
+    background-image: linear-gradient(to right bottom, #ff5757, #ff6f6d, #ff8483, #ff9998, #ffadad);
+}
+
+.Sale h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+.blink-me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .title-prime{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prime{
+    display: flex;
+    justify-content: center;
+  }
+
+  .prime img{
+    margin: 10px 10px;
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 400px;
+    padding-bottom: 50px;
+
+  }
+
+  .prime img:hover{
+    height: 420px ;
+  }

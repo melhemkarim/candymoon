@@ -1,0 +1,29 @@
+.footer{
+    background: rgb(255, 234, 234);
+
+}
+
+.footer img{
+    width: 120px;
+}
+
+.footer a , h5{
+    color: #FF5757;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer a:hover{
+    border-bottom: 2px solid #FF5757;
+    
+}
+
+
+
+.socials li{
+    margin: 5px 5px;
+}
+
+.links li{
+    margin: 5px 5px;
+}

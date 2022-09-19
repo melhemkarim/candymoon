@@ -1,0 +1,105 @@
+.app__navbar2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FF5757;
+    padding: 1rem 2rem;
+}
+
+
+.app__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 30px;
+}
+
+
+
+.app__navbar-links li{
+    margin: 0 3rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color: white;
+    padding-top: 10px;
+}
+
+.app__navbar-links li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.app__navbar-links li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s ease;
+}
+
+
+.app__navbar-smallscreen{
+    display: none;
+}
+
+.app__navbar-smallscreen_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #FF5757;
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.app__navbar-smallscreen_overlay .overlay__close{
+    font-size: 27px;
+    color: white;   
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.app__navbar-smallscreen_links{
+    list-style: none;
+}
+
+.app__navbar-smallscreen_links li{
+padding-top: 2rem;
+}
+
+.app__navbar-smallscreen_links li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s ease-in;
+    }
+
+.app__navbar-smallscreen_links li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.hammenu{
+    display: flex;
+    justify-content: center;
+}
+.app__navbar-smallscreen_links{
+    margin: 2rem;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+@media screen and (max-width: 1150px) {
+    .app__navbar-links{
+        display: none;
+    }
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+}
