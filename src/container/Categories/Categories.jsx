@@ -50,7 +50,7 @@ export const Categories = () => {
 
     
 return(
-    <section className='project' id='categories'>
+    <section className='categories' id='categories'>
         <Container>
             <Row>
                 <Col size={12}>
